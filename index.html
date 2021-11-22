@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon.png">
+
+    <!-- Roboto Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Overpass Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/js/all.min.js"
+        integrity="sha512-yk7SvYYZqGS11tWcb6cyoKiwgrNBeCHC7RebrVa0QOySVjh6WjEjaBaBue+VvDBHEfAGa0Z8/b6+LhoGSeweaw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/predefined.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.min.css">
+
+    <!-- Page Title -->
+    <title>Ruo</title>
+</head>
+
+<body>
+
+
+    <!-- ——— Header ——— -->
+    <header id="header">
+        <div class="container mx-auto">
+
+            <div class="wrapper">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="/">
+                        <div class="image">
+                            <img src="./images/rou.png" alt="rou">
+                        </div>
+                        <div class="brand">
+                            <h1>ROU</h1>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="side">
+                    <div class="close" onclick="closeSidebar()">
+                        <i class="fas fa-times"></i>
+                    </div>
+
+                    <!-- Navigation Menu -->
+                    <nav class="nav">
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Service</a>
+                            </li>
+                            <li>
+                                <a href="#">Works</a>
+                            </li>
+                            <li>
+                                <a href="#">News</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#" class="getQuote">Get A Quote</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Social Media -->
+                    <div class="utilSocialMedia">
+                        <ul>
+                            <li>
+                                <a href="https://facebook.com" target="_blank" class="facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com" target="_blank" class="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://youtube.com" target="_blank" class="youtube">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com" target="_blank" class="instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Side Nav Toggle -->
+                <div id="sideOpen" onclick="openSidebar()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ——— Intro [Section 1] ——— -->
+        <section id="intro">
+            <div class="elements"></div>
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <!-- Content -->
+                    <div class="content">
+                        <h1>Work Smartly with Endless Possibility</h1>
+                        <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerction</p>
+                        <a href="#" class="utilButton">Get Started</a>
+                    </div>
+
+                    <!-- Vector -->
+                    <div class="vector">
+                        <img src="./images/intro-vector.png" alt="man woman web">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Easy [Section 2] ——— -->
+        <section id="easy">
+            <img src="./images/easy-element-3.png" alt="element" class="element wave2">
+            <img src="./images/easy-element-2.png" alt="element" class="element trapezoid">
+            <img src="./images/easy-element-1.png" alt="element" class="element wave1">
+
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <!-- Section Head -->
+                    <div class="title utilSectionHead">
+                        <h2 class="utilMiniTitle">build trust first</h2>
+                        <h1 class="utilTitle">Control your business with a single tap</h1>
+                    </div>
+
+                    <div class="cards">
+                        <!-- Card 1 -->
+                        <div class="card anchor">
+                            <div class="image">
+                                <img src="./images/easy-anchor.png" alt="anchor">
+                            </div>
+                            <div class="detail">
+                                <h2>Complete business Control</h2>
+                                <p>
+                                    Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exerci tation
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="card archive">
+                            <div class="image">
+                                <img src="./images/easy-archive.png" alt="anchor">
+                            </div>
+                            <div class="detail">
+                                <h2>Critical analytics and report</h2>
+                                <p>
+                                    Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exerci tation
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="card user">
+                            <div class="image">
+                                <img src="./images/easy-user.png" alt="anchor">
+                            </div>
+                            <div class="detail">
+                                <h2>User satisfaction guarranted</h2>
+                                <p>
+                                    Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exerci tation
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Team [Section 3] ——— -->
+        <section id="team">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="content">
+                        <h1 class="utilTitle">Most innovative creative team</h1>
+                        <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerction</p>
+                        <p class="utilParagraph">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla
+                            pariatur. Excep teur sint occae cat cupidatat non proident, sunt in culpa qui officia deser
+                            unt mollit anim id est laborum. </p>
+                        <a href="#" class="utilButton uppercase">know more</a>
+                    </div>
+                    <div class="pictures">
+                        <img src="./images/team-picture-1.png" alt="clock" class="clock">
+                        <img src="./images/team-picture-2.png" alt="team" class="team">
+                        <div class="square"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Services [Section 4] ——— -->
+        <section id="services">
+            <div class="background"></div>
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="title utilSectionHead">
+                        <h2 class="utilMiniTitle">what we do</h2>
+                        <h1 class="utilTitle">Service to solve all kinds of business problem</h1>
+                    </div>
+
+                    <div class="services">
+                        <!-- Service 1 -->
+                        <div class="service">
+                            <div class="icon">
+                                <svg version="1.2" baseProfile="tiny" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9 2h-5c-1.103 0-2 .896-2 2v5c0 1.104.897 2 2 2h5c1.103 0 2-.896 2-2v-5c0-1.104-.897-2-2-2zm0 7h-5v-5h5v5zM20 2h-5c-1.104 0-2 .896-2 2v5c0 1.104.896 2 2 2h5c1.104 0 2-.896 2-2v-5c0-1.104-.896-2-2-2zm0 7h-5v-5h5v5zM9 13h-5c-1.103 0-2 .896-2 2v5c0 1.104.897 2 2 2h5c1.103 0 2-.896 2-2v-5c0-1.104-.897-2-2-2zm0 7h-5v-5h5v5zM20 13h-5c-1.104 0-2 .896-2 2v5c0 1.104.896 2 2 2h5c1.104 0 2-.896 2-2v-5c0-1.104-.896-2-2-2zm0 7h-5v-5h5v5z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3>Business Automation</h3>
+                            <p class="utilParagraph">Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud
+                                exerci tation </p>
+                            <div class="arrow">
+                                <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- Service 2 -->
+                        <div class="service">
+                            <div class="icon">
+                                <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3>Ecommerce Support</h3>
+                            <p class="utilParagraph">Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud
+                                exerci tation </p>
+                            <div class="arrow">
+                                <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- Service 3 -->
+                        <div class="service">
+                            <div class="icon">
+                                <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"></path>
+                                    <path
+                                        d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7zm6 8.73V7.27l-3.5 1.555v4.35l3.5 1.556zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z">
+                                    </path>
+                                    <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+                                </svg>
+                            </div>
+                            <h3>Video Production</h3>
+                            <p class="utilParagraph">Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud
+                                exerci tation </p>
+                            <div class="arrow">
+                                <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- Service 4 -->
+                        <div class="service">
+                            <div class="icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" d="M0 0h24v24H0V0z"></path>
+                                    <path
+                                        d="M19 14v4h-2v-4h2M7 14v4H6c-.55 0-1-.45-1-1v-3h2m5-13a9 9 0 00-9 9v7c0 1.66 1.34 3 3 3h3v-8H5v-2c0-3.87 3.13-7 7-7s7 3.13 7 7v2h-4v8h4v1h-7v2h6c1.66 0 3-1.34 3-3V10a9 9 0 00-9-9z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3>Realtime Support</h3>
+                            <p class="utilParagraph">Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud
+                                exerci tation </p>
+                            <div class="arrow">
+                                <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- Service 5 -->
+                        <div class="service">
+                            <div class="icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="none" stroke="#c78ee4" stroke-width="2"
+                                        d="M12,22 C12,22 4,16 4,10 C4,5 8,2 12,2 C16,2 20,5 20,10 C20,16 12,22 12,22 Z M12,13 C13.657,13 15,11.657 15,10 C15,8.343 13.657,7 12,7 C10.343,7 9,8.343 9,10 C9,11.657 10.343,13 12,13 L12,13 Z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3>Location Marking</h3>
+                            <p class="utilParagraph">Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud
+                                exerci tation </p>
+                            <div class="arrow">
+                                <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- Service 6 -->
+                        <div class="service">
+                            <div class="icon">
+                                <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M518.3 459a8 8 0 0 0-12.6 0l-112 141.7a7.98 7.98 0 0 0 6.3 12.9h73.9V856c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V613.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 459z">
+                                    </path>
+                                    <path
+                                        d="M811.4 366.7C765.6 245.9 648.9 160 512.2 160S258.8 245.8 213 366.6C127.3 389.1 64 467.2 64 560c0 110.5 89.5 200 199.9 200H304c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8h-40.1c-33.7 0-65.4-13.4-89-37.7-23.5-24.2-36-56.8-34.9-90.6.9-26.4 9.9-51.2 26.2-72.1 16.7-21.3 40.1-36.8 66.1-43.7l37.9-9.9 13.9-36.6c8.6-22.8 20.6-44.1 35.7-63.4a245.6 245.6 0 0 1 52.4-49.9c41.1-28.9 89.5-44.2 140-44.2s98.9 15.3 140 44.2c19.9 14 37.5 30.8 52.4 49.9 15.1 19.3 27.1 40.7 35.7 63.4l13.8 36.5 37.8 10C846.1 454.5 884 503.8 884 560c0 33.1-12.9 64.3-36.3 87.7a123.07 123.07 0 0 1-87.6 36.3H720c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h40.1C870.5 760 960 670.5 960 560c0-92.7-63.1-170.7-148.6-193.3z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3>File Upload Protocol</h3>
+                            <p class="utilParagraph">Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud
+                                exerci tation </p>
+                            <div class="arrow">
+                                <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Projects [Section 5] ——— -->
+        <section id="projects">
+            <div class="background one"></div>
+            <div class="background two"></div>
+
+            <img src="./images/projects-element-2.png" alt="element" class="element trapezoid">
+            <img src="./images/projects-element-1.png" alt="element" class="element square">
+            <img src="./images/projects-element-3.png" alt="element" class="element triangle">
+            <img src="./images/projects-element-4.png" alt="element" class="element square2">
+            <img src="./images/projects-element-6.png" alt="element" class="element trapezoid2">
+            <img src="./images/projects-element-5.png" alt="element" class="element circle">
+
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="title utilSectionHead">
+                        <h2 class="utilMiniTitle">Our Projects</h2>
+                        <h1 class="utilTitle">Check the real innovation of problem solving</h1>
+                    </div>
+
+                    <div class="projects">
+                        <!-- Project 1 -->
+                        <div class="project">
+                            <div class="image">
+                                <div class="border"></div>
+                                <img src="./images/projects-project-1.png" alt="project">
+                            </div>
+                            <div class="detail">
+                                <h3>Development</h3>
+                                <h2>Jodi kokhono vul hoye jay tumi oporadh nio na</h2>
+                                <p class="utilParagraph">
+                                    Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia deser unt
+                                    mollit a do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                <a href="#">View Project</a>
+                            </div>
+                        </div>
+                        <!-- Project 2 -->
+                        <div class="project">
+                            <div class="image">
+                                <div class="border"></div>
+                                <img src="./images/projects-project-2.png" alt="project">
+                            </div>
+                            <div class="detail">
+                                <h3>Research & Analytics</h3>
+                                <h2>Ei biristi veja rate tuminei bole somoy amar katena</h2>
+                                <p class="utilParagraph">
+                                    Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia deser unt
+                                    mollit a do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                <a href="#">View Project</a>
+                            </div>
+                        </div>
+                        <!-- Project 3 -->
+                        <div class="project">
+                            <div class="image">
+                                <div class="border"></div>
+                                <img src="./images/projects-project-3.png" alt="project">
+                            </div>
+                            <div class="detail">
+                                <h3>UI/UX Engineering</h3>
+                                <h2>Ami jare chaire se thake mori ontore </h2>
+                                <p class="utilParagraph">
+                                    Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia deser unt
+                                    mollit a do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                <a href="#">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Go to potfolio -->
+                    <div class="goToPortfolio">
+                        <a href="">Go to Portfolio</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Our Team [Section 6] ——— -->
+        <section id="ourTeam">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="title utilSectionHead">
+                        <h2 class="utilMiniTitle">Our Projects</h2>
+                        <h1 class="utilTitle">Check the real innovation of problem solving</h1>
+                    </div>
+
+                    <div class="team">
+                        <!-- Member 1 -->
+                        <div class="member">
+                            <div class="image">
+                                <img src="./images/ourteam-memeber-1.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h3>Bruce Wayn</h3>
+                                <p>Founder and CEO</p>
+                            </div>
+                        </div>
+                        <!-- Member 2 -->
+                        <div class="member">
+                            <div class="image">
+                                <img src="./images/ourteam-memeber-2.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h3>Clark Kent</h3>
+                                <p>Manager</p>
+                            </div>
+                        </div>
+                        <!-- Member 3 -->
+                        <div class="member">
+                            <div class="image">
+                                <img src="./images/ourteam-memeber-3.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h3>Jessica Parker</h3>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                        <!-- Member 4 -->
+                        <div class="member">
+                            <div class="image">
+                                <img src="./images/ourteam-memeber-4.png" alt="">
+                            </div>
+                            <div class="info">
+                                <h3>Justin Pakerman</h3>
+                                <p>Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Feedback [Section 7] ——— -->
+        <section id="review">
+            <div class="background">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="content">
+                        <h2 class="utilMiniTitle">Testimonial</h2>
+                        <h1 class="utilTitle">They are awesome!</h1>
+                        <p class="utilParagraph">Kollit a do eiusmod tempor incididunt ut labore et do irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        <div class="reviewer">
+                            <span class="line"></span>
+                            <span class="person">Kabir Manja</span>
+                            <span class="job">Music Producer</span>
+                        </div>
+                        <div class="dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <div class="picture">
+                        <div class="border"></div>
+                        <img src="./images/review-picture.png" alt="review">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Contact Us [Section 8] ——— -->
+        <section id="contact">
+            <div class="background"></div>
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="title utilSectionHead">
+                        <h2 class="utilMiniTitle">Contact Us</h2>
+                        <h1 class="utilTitle">Stay connected with us for any reason</h1>
+                    </div>
+
+                    <div class="content">
+                        <div class="message">
+                            <h3>Write us a message</h3>
+                            <form>
+                                <input type="text" placeholder="Your name" required>
+                                <input type="email" placeholder="Your email" required>
+                                <input type="text" placeholder="Subject">
+                                <textarea cols="30" rows="10" placeholder="Start writing message here ..."
+                                    required></textarea>
+                                <div class="button">
+                                    <button type="submit" class="utilButton">Get Started</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="more">
+                            <p class="description utilParagraph">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit, sed do
+                                eiusmod tempor inci
+                                didunt ut labore et dolore magna aliqua. </p>
+                            <ul>
+                                <!-- Phone -->
+                                <li>
+                                    <div class="icon red">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="information">
+                                        <h6>Phone</h6>
+                                        <p>0123-4567-8910</p>
+                                    </div>
+                                </li>
+                                <!-- Email -->
+                                <li>
+                                    <div class="icon green">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="information">
+                                        <h6>Email</h6>
+                                        <p>hello@rainydesign.com</p>
+                                    </div>
+                                </li>
+                                <!-- Address -->
+                                <li>
+                                    <div class="icon orange">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="information">
+                                        <h6>Address</h6>
+                                        <p>20, Bordeshi, Amin Bazar
+                                            Savar, Dhaka</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Blog [Section 9] ——— -->
+        <section id="blog">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="head">
+                        <div class="title utilSectionHead">
+                            <h2 class="utilMiniTitle">From Our Blog</h2>
+                            <h1 class="utilTitle">Get lastest update</h1>
+                        </div>
+                        <div class="blog">
+                            <a href="#" class="utilLittleButton">Go to blog</a>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <!-- Card 1 -->
+                        <div class="card">
+                            <h3 class="red">App Development</h3>
+                            <h2>When the musics over turn off the light</h2>
+                            <p>Excep teur sint occae cat cupid atat non proident, sunt in culpa qui officia deser unt
+                                mollit ..</p>
+                            <div class="footer">
+                                <div class="author">
+                                    <img src="./images/updates-author-1.png" alt="author">
+                                    <h4>Sharmin Eity</h4>
+                                </div>
+                                <div class="likes">
+                                    <i class="far fa-heart"></i>
+                                    <span class="count">22</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="card">
+                            <h3 class="green">App Development</h3>
+                            <h2>When the musics over turn off the light</h2>
+                            <p>Excep teur sint occae cat cupid atat non proident, sunt in culpa qui officia deser unt
+                                mollit ..</p>
+                            <div class="footer">
+                                <div class="author">
+                                    <img src="./images/updates-author-2.png" alt="author">
+                                    <h4>Sanjida Ema</h4>
+                                </div>
+                                <div class="likes">
+                                    <i class="far fa-heart"></i>
+                                    <span class="count">22</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="card">
+                            <h3 class="orange">App Development</h3>
+                            <h2>When the musics over turn off the light</h2>
+                            <p>Excep teur sint occae cat cupid atat non proident, sunt in culpa qui officia deser unt
+                                mollit ..</p>
+                            <div class="footer">
+                                <div class="author">
+                                    <img src="./images/updates-author-3.png" alt="author">
+                                    <h4>Nayna Eva</h4>
+                                </div>
+                                <div class="likes">
+                                    <i class="far fa-heart"></i>
+                                    <span class="count">22</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ——— Footer ——— -->
+        <footer id="footer">
+            <div class="container mx-auto">
+
+                <div class="wrapper">
+                    <div class="top">
+                        <div class="brand">
+                            <div class="logo">
+                                <a href="/">
+                                    <div class="image">
+                                        <img src="./images/rou.png" alt="rou">
+                                    </div>
+                                    <div class="brand">
+                                        <h1>ROU</h1>
+                                    </div>
+                                </a>
+                            </div>
+                            <p class="description">Fectetur adipisicing elit, sed do eius mod tempor Lorem ipsum dolor
+                                sit amet, con sectetur adipisicing elitt ut labore</p>
+                            <div class="email">
+                                <input type="email" placeholder="Submit Email">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                        </div>
+                        <div class="menu about">
+                            <h6>About</h6>
+                            <ul>
+                                <li>
+                                    <a href="#">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Service</a>
+                                </li>
+                                <li>
+                                    <a href="#">Our Story</a>
+                                </li>
+                                <li>
+                                    <a href="#">Success</a>
+                                </li>
+                                <li>
+                                    <a href="#">Support</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu service">
+                            <h6>Service</h6>
+                            <ul>
+                                <li>
+                                    <a href="#">Development</a>
+                                </li>
+                                <li>
+                                    <a href="#">Maintanance</a>
+                                </li>
+                                <li>
+                                    <a href="#">Consultancy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Design</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu touch">
+                            <h6>Service</h6>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <p>22/1 Bardeshi, Amin Bazar
+                                        Dhaka 1348</p>
+                                </li>
+                                <li>
+                                    <i class="far fa-envelope"></i>
+                                    <p>xuwelkhan@gmail.com</p>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone-alt"></i>
+                                    <p>+88 01679 252595</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="follow">
+                            <span>Follow Us</span>
+                            <div class="utilSocialMedia">
+                                <ul>
+                                    <li>
+                                        <a href="https://facebook.com" target="_blank" class="facebook">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com" target="_blank" class="twitter">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://youtube.com" target="_blank" class="youtube">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com" target="_blank" class="instagram">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="copyright">All rights reserved © <span>Juwel Khan</span> 2020</div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+
+    </main>
+
+
+
+
+    <!-- Javascript -->
+    <script>
+        const sidebar = document.getElementById('side');
+        function closeSidebar() {
+            sidebar.classList.remove('open');
+        }
+        function openSidebar() {
+            sidebar.classList.add('open');
+        }
+    </script>
+</body>
+
+</html>
