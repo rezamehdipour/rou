@@ -2,6 +2,6 @@
 
 Written in HTML & CSS, Responsive.
 
-## Preview
+<a href="https://rezamehdipour.ir/rou">[ Live Preview ]</a>
 
-![preview](preview.png)
+![preview](preview.jpg)
